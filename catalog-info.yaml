@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-2"
+  description: "test-2"
+  annotations:
+    github.com/project-slug: giffgaff/backstage-template-test-two
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/sre"
